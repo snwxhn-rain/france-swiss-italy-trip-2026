@@ -1186,6 +1186,11 @@ html&gt;body{padding:0}&lt;/style&gt;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 12px;
     }
+    #booked-trip-itinerary .return-board {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 10px;
+      align-items: start;
+    }
     #booked-trip-itinerary .flight-group {
       min-width: 0;
       padding: 0 0 0 12px;
@@ -1646,24 +1651,26 @@ html&gt;body{padding:0}&lt;/style&gt;
       &lt;div class=&quot;panel&quot;&gt;
         &lt;h2 data-en=&quot;Departure day from Rome&quot;&gt;罗马出发日&lt;/h2&gt;
         &lt;div class=&quot;meta&quot; data-en=&quot;No sightseeing; each traveler goes to FCO separately.&quot;&gt;不安排景点；三人分别前往 FCO。&lt;/div&gt;
-        &lt;div class=&quot;ticket&quot;&gt;
-          &lt;strong data-en=&quot;Qiutian | London&quot;&gt;秋天｜伦敦&lt;/strong&gt;
+        &lt;div class=&quot;flight-board return-board&quot;&gt;
+        &lt;article class=&quot;flight-group&quot;&gt;
+          &lt;h2 data-en=&quot;Qiutian | London&quot;&gt;秋天｜伦敦&lt;/h2&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot;&gt;10/6 11:55&lt;/span&gt;&lt;span data-en=&quot;Rome Fiumicino Airport T3 -&gt; London Luton 14:00 | Wizz Air Malta W46005 | 3h 05m&quot;&gt;罗马菲乌米奇诺机场 T3 → 伦敦卢顿 14:00｜Wizz Air Malta W46005｜3小时05分&lt;/span&gt;&lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;ticket bus&quot;&gt;
-          &lt;strong data-en=&quot;Jiaoniang | Beijing&quot;&gt;娇娘｜北京&lt;/strong&gt;
+        &lt;/article&gt;
+        &lt;article class=&quot;flight-group&quot;&gt;
+          &lt;h2 data-en=&quot;Jiaoniang | Beijing&quot;&gt;娇娘｜北京&lt;/h2&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot;&gt;10/6 16:20&lt;/span&gt;&lt;span data-en=&quot;Rome Fiumicino Airport T3 -&gt; Riyadh T2 22:35 | Saudia SV208&quot;&gt;罗马菲乌米奇诺机场 T3 → 利雅得 T2 22:35｜沙特航空 SV208&lt;/span&gt;&lt;/div&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot; data-en=&quot;3h 45m&quot;&gt;3小时45分&lt;/span&gt;&lt;span data-en=&quot;Overnight connection in Riyadh&quot;&gt;利雅得跨日转机&lt;/span&gt;&lt;/div&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot;&gt;10/7 02:20&lt;/span&gt;&lt;span data-en=&quot;Riyadh T2 -&gt; Beijing Daxing 17:05 | Saudia SV888&quot;&gt;利雅得 T2 → 北京大兴 17:05｜沙特航空 SV888&lt;/span&gt;&lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;ticket warn&quot;&gt;
-          &lt;strong data-en=&quot;Paopao | Shanghai&quot;&gt;泡泡｜上海&lt;/strong&gt;
+        &lt;/article&gt;
+        &lt;article class=&quot;flight-group&quot;&gt;
+          &lt;h2 data-en=&quot;Paopao | Shanghai&quot;&gt;泡泡｜上海&lt;/h2&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot;&gt;10/6 22:00&lt;/span&gt;&lt;span data-en=&quot;Rome Fiumicino Airport -&gt; Sharjah 10/7 06:05 | Air Arabia G9663 | 6h 05m&quot;&gt;罗马菲乌米奇诺机场 → 沙迦 10/7 06:05｜阿拉伯航空 G9663｜6小时05分&lt;/span&gt;&lt;/div&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot; data-en=&quot;18h 40m&quot;&gt;18小时40分&lt;/span&gt;&lt;span data-en=&quot;Overnight Sharjah connection | baggage re-check&quot;&gt;沙迦跨日转机｜行李重新托运&lt;/span&gt;&lt;/div&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot;&gt;10/8 00:45&lt;/span&gt;&lt;span data-en=&quot;Sharjah -&gt; Bangkok Suvarnabhumi 10:20 | Air Arabia G9823 | 6h 35m&quot;&gt;沙迦 → 曼谷素万那普 10:20｜阿拉伯航空 G9823｜6小时35分&lt;/span&gt;&lt;/div&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot; data-en=&quot;8h 05m&quot;&gt;8小时05分&lt;/span&gt;&lt;span data-en=&quot;Bangkok connection | re-check-in and baggage re-check&quot;&gt;曼谷转机｜重新办理登机、行李重新托运&lt;/span&gt;&lt;/div&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot;&gt;10/8 18:25&lt;/span&gt;&lt;span data-en=&quot;Bangkok Suvarnabhumi -&gt; Shanghai Pudong T2 23:55 | Spring Airlines 9C7282 | 4h 30m&quot;&gt;曼谷素万那普 → 上海浦东 T2 23:55｜春秋航空 9C7282｜4小时30分&lt;/span&gt;&lt;/div&gt;
           &lt;div class=&quot;leg&quot;&gt;&lt;span class=&quot;time&quot; data-en=&quot;Transit&quot;&gt;中转&lt;/span&gt;&lt;span data-en=&quot;Baggage re-check at both stops; re-check-in in Bangkok. Confirm visa and entry rules with the airlines before departure.&quot;&gt;两次均需重新托运行李，曼谷还需重新值机；出发前向航司确认签证和入境要求。&lt;/span&gt;&lt;/div&gt;
+        &lt;/article&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/article&gt;
